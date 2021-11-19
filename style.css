@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', serif;
+}
+
+/* This defines most of the colors and fonts for the page*/
+.header, a, .container1, .footer{
+    background-color: #1F2937;
+    color:#f9faf8
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 200px;
+}
+
+.title{
+    font-size:48px;
+    font-weight: 900;
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border: none;
+    padding: 4px 24px;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight:900px;
+    color: #1F2937;
+    text-align: center;
+}
+
+/* this defines the rules for the header and links */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    flex-shrink: 0;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    margin-right: 200px;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* this defines the rules for container 1 and everything inside*/
+.container1{
+    display:flex;
+    justify-content: space-between;
+}
+
+.titlebox, .imageplaceholder {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.titlebox{
+    margin-left: 200px;
+    width: 400px;
+}
+
+.imageplaceholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    background-color:grey;
+    margin-right:200px;
+}
+
+/* this defines the rules for container 2 */
+.container2{
+    margin-bottom: 100px;
+}
+
+.squares {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.squaretxt {
+    width: 150px;
+}
+/* this defines the rules for container 3 */
+.container3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 0px;
+}
+
+figcaption {
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: 500;
+    font-size: 24px;
+    margin-right: 400px;
+    margin-bottom: 100px;
+}
