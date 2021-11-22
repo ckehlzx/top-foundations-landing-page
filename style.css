@@ -37,6 +37,15 @@ h2{
     text-align: center;
 }
 
+.call>button{
+    border: 2px solid #f9faf8;     
+}
+
+.call{
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
 /* this defines the rules for the header and links */
 .header{
     display: flex;
@@ -105,6 +114,7 @@ a{
 
 .squaretxt {
     width: 150px;
+    text-align: center;
 }
 /* this defines the rules for container 3 */
 .container3 {
@@ -129,6 +139,29 @@ figcaption {
     color: #1F2937;
     font-weight: 500;
     font-size: 24px;
-    margin-right: 400px;
+    margin-right: 450px;
     margin-bottom: 100px;
+}
+
+/* this defines the rules for container 4 */
+.container4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;;
+    padding: 32px;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h3{
+    margin: 0px;
 }
