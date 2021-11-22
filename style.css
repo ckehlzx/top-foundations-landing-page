@@ -116,6 +116,7 @@ a{
     width: 150px;
     text-align: center;
 }
+
 /* this defines the rules for container 3 */
 .container3 {
     background-color: #E5E7EB;
@@ -164,4 +165,13 @@ figcaption {
 
 h3{
     margin: 0px;
+}
+
+/* this defines the rules for the footer */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    font-size: 18px;
 }
